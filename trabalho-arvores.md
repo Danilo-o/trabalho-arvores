@@ -209,7 +209,7 @@ Essa reorganização reduz a altura da árvore e restaura o balanceamento.
 
 ---
 
-###Exemplo
+### Exemplo
 
 <img width="392" height="244" alt="image" src="https://github.com/user-attachments/assets/4a21afb0-792d-4a51-870f-e0148ba6e843" />
 
@@ -244,7 +244,7 @@ Com isso, a árvore volta a ficar equilibrada.
 
 ---
 
-###Exemplo
+### Exemplo
 
 <img width="368" height="242" alt="image" src="https://github.com/user-attachments/assets/d6c8bb78-7228-4487-8942-cd3ee01df992" />
 
