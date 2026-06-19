@@ -342,7 +342,7 @@ Essa reorganização reduz a altura da árvore e restaura o balanceamento.
 
 ---
 
-###Exemplo
+### Exemplo
 
 <img width="392" height="244" alt="image" src="https://github.com/user-attachments/assets/4a21afb0-792d-4a51-870f-e0148ba6e843" />
 
@@ -377,7 +377,7 @@ Com isso, a árvore volta a ficar equilibrada.
 
 ---
 
-###Exemplo
+### Exemplo
 
 <img width="368" height="242" alt="image" src="https://github.com/user-attachments/assets/d6c8bb78-7228-4487-8942-cd3ee01df992" />
 
@@ -425,7 +425,7 @@ Sem elas, alguns desequilíbrios não poderiam ser corrigidos adequadamente.
 
 ---
 
-###Exemplo
+### Exemplo
 
 <img width="462" height="213" alt="image" src="https://github.com/user-attachments/assets/0f47dad9-61d7-412c-b79b-dc56fe188d93" />
 
@@ -462,7 +462,7 @@ Após a execução do espelhamento:
 
 ---
 
-###Exemplo
+### Exemplo
 
 <img width="306" height="212" alt="image" src="https://github.com/user-attachments/assets/5dfe0053-fc26-4aec-8862-3c9d1c98a09a" />
 
