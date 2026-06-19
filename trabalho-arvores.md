@@ -116,3 +116,137 @@ Essas regras impedem que a árvore fique excessivamente inclinada para um dos la
 
 
 ---
+
+## 3. Árvore N-ária
+
+### Conceito
+
+Uma Árvore N-ária é uma generalização da árvore binária.
+
+Enquanto uma árvore binária permite no máximo dois filhos por nó, uma árvore N-ária permite que cada nó possua até **N filhos**, onde N pode assumir qualquer valor inteiro maior que dois.
+
+Essa característica permite representar hierarquias complexas de forma mais natural.
+
+---
+
+### Diferenças em Relação às Árvores Binárias
+
+| Característica | Árvore Binária | Árvore N-ária |
+|---------------|---------------|---------------|
+| Número máximo de filhos | 2 | N |
+| Estrutura | Mais simples | Mais flexível |
+| Profundidade | Geralmente maior | Pode ser menor |
+| Aplicação | Busca e ordenação | Hierarquias complexas |
+
+---
+
+### Vantagens
+
+- Melhor representação de estruturas hierárquicas.
+- Menor profundidade em alguns cenários.
+- Organização mais intuitiva para categorias e subcategorias.
+- Facilita modelagem de sistemas com muitos relacionamentos.
+
+---
+
+### Desvantagens
+
+- Implementação mais complexa.
+- Consumo de memória potencialmente maior.
+- Operações de busca dependem da organização dos filhos.
+- Nem sempre possui mecanismos automáticos de balanceamento.
+
+---
+
+### Aplicações Práticas
+
+As árvores N-árias são amplamente utilizadas em:
+
+- Sistemas de arquivos.
+- Menus de aplicações.
+- Estruturas organizacionais empresariais.
+- Árvores DOM de páginas web.
+- Classificações biológicas.
+- Sistemas de categorias em e-commerces.
+
+---
+
+### Exemplo ilustrado
+<img width="406" height="246" alt="image" src="https://github.com/user-attachments/assets/f4f0b1d9-9ce1-407c-bb67-fba40de47645" />
+
+  
+---
+
+# Parte 2 – Operações em Árvores
+
+## 1. Rotação Simples à Direita
+
+### Objetivo
+
+A rotação simples à direita é utilizada para corrigir desequilíbrios causados pelo crescimento excessivo da subárvore esquerda.
+
+O objetivo é redistribuir os nós para reduzir a altura desse lado da árvore.
+
+---
+
+### Situação em que é Utilizada
+
+É aplicada quando ocorre um desequilíbrio do tipo:
+
+**Esquerda-Esquerda (LL)**
+
+Isso significa que um novo elemento foi inserido no filho esquerdo do filho esquerdo do nó desbalanceado.
+
+---
+
+### Funcionamento
+
+O filho esquerdo assume a posição do nó desbalanceado.
+
+O antigo nó torna-se filho direito desse novo nó.
+
+Essa reorganização reduz a altura da árvore e restaura o balanceamento.
+
+---
+
+###Exemplo
+
+<img width="392" height="244" alt="image" src="https://github.com/user-attachments/assets/4a21afb0-792d-4a51-870f-e0148ba6e843" />
+
+
+---
+
+## 2. Rotação Simples à Esquerda
+
+### Objetivo
+
+Corrigir desequilíbrios provocados pelo crescimento excessivo da subárvore direita.
+
+---
+
+### Situação em que é Utilizada
+
+É aplicada quando ocorre um desequilíbrio do tipo:
+
+**Direita-Direita (RR)**
+
+Nesse caso, a inserção ocorreu no filho direito do filho direito do nó desbalanceado.
+
+---
+
+### Funcionamento
+
+O filho direito assume a posição do nó desbalanceado.
+
+O antigo nó passa a ocupar a posição de filho esquerdo.
+
+Com isso, a árvore volta a ficar equilibrada.
+
+---
+
+###Exemplo
+
+<img width="368" height="242" alt="image" src="https://github.com/user-attachments/assets/d6c8bb78-7228-4487-8942-cd3ee01df992" />
+
+---
+
